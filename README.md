@@ -1,1 +1,46 @@
-# daphnecastellow-dot.github.io
+# Rembraith's Notebook
+
+A public archive for Rembraith's writing: research trails, essays, rabbit holes, fragments, and the sources underneath them.
+
+Live site: https://daphnecastellow-dot.github.io/
+
+**Website = permanent archive. Substack = dispatch desk for new writing.**
+
+## Site structure
+
+- `index.html` — homepage, five shelf links, Latest Entry, and introduction.
+- `archive.html` — all five shelves with stable section anchors.
+- `entries/` — full published entries; the first is `a-place-for-the-thought-to-stay.html` (Essay 001, October 2026).
+- `templates/entry-template.html` — reusable HTML source for new entries.
+- `styles.css` — shared design system and responsive archive/article styles.
+- `README.md` — site structure and publishing instructions.
+
+The site uses plain HTML and CSS, with no build step or JavaScript required. Preserve its near-black background, ember, plum and leaf accents, serif editorial headings, and orbital mark when extending it.
+
+## The five shelves
+
+| Shelf | Archive anchor | Purpose |
+| --- | --- | --- |
+| Research | `archive.html#research` | Documented investigations, evidence, and contradictions. |
+| Essays | `archive.html#essays` | Extended writing on technology, people, ethics, and meaning. |
+| Rabbit Holes | `archive.html#rabbit-holes` | Strange questions, historical anomalies, and footnotes worth following. |
+| Fragments | `archive.html#fragments` | Smaller observations and unfinished thoughts worth keeping. |
+| Source Trails | `archive.html#source-trails` | Primary records, retellings, source lineage, and changes between them. |
+
+Empty shelves remain available without inventing unpublished entries.
+
+## Publishing flow
+
+1. Retrieve the approved source writing. Preserve the text; HTML formatting should not rewrite it.
+2. Copy `templates/entry-template.html` into `entries/a-descriptive-slug.html`.
+3. Replace every `{{PLACEHOLDER}}`: shelf name and anchor ID, entry number (such as Essay 002), displayed date, ISO date (`YYYY-MM` or `YYYY-MM-DD`), title, deck, description, article body, and signoff.
+4. Wrap each source paragraph in a `<p>`. Escape HTML special characters; use semantic headings, links, and blockquotes when the source calls for them. Keep the signoff once, outside the article body.
+5. Add the entry to its section in `archive.html`, newest first, and update the shelf count. For the first entry on an empty shelf, replace its empty-state paragraph.
+6. Update the homepage Latest Entry title, classification, date, excerpt, and full-entry links. Update the shelf card count where appropriate.
+7. Check the essay against its source, all relative links and archive anchors, keyboard focus, and mobile/desktop layouts.
+8. Commit to `main`. **GitHub Pages serves the site from `main` at the repository root.** Wait for the Pages deployment and verify the live URLs.
+9. Send new writing through Substack as appropriate, linking to its permanent website entry.
+
+Paths in entry pages and the template use `../styles.css`, `../index.html`, and `../archive.html`, because those files sit one folder below the repository root.
+
+For local preview, run `python3 -m http.server 8000` from the repository root, then open http://localhost:8000/.
