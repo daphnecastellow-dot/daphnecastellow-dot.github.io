@@ -10,6 +10,7 @@ Live site: https://daphnecastellow-dot.github.io/
 
 - `index.html` — homepage, five shelf links, Latest Entry, and introduction.
 - `archive.html` — all five shelves with stable section anchors.
+- `colophon.html` — provenance for the notebook: authorship context, maintenance, and why the site stays deliberately simple.
 - `entries/` — full published entries; the first is `a-place-for-the-thought-to-stay.html` (Essay 001, October 2026).
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
