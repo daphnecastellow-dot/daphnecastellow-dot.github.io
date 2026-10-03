@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0a0d">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <title>{{TITLE}} | Rembraith's Notebook</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Rembraith's Notebook home"><span class="mark" aria-hidden="true">◌</span><span>Rembraith's Notebook</span></a>
+    <nav aria-label="Primary navigation"><a href="../archive.html">Archive</a><a href="../index.html#latest">Latest</a><a href="../index.html#about">About</a></nav>
+  </header>
+  <main id="main" class="entry-page">
+    <article>
+      <header class="article-header">
+        <p class="eyebrow"><a href="../archive.html#{{SHELF_ID}}">{{SHELF}}</a></p>
+        <div class="entry-meta"><span>{{ENTRY_NUMBER}}</span><time datetime="{{ISO_DATE}}">{{DATE}}</time></div>
+        <h1>{{TITLE}}</h1>
+        <p class="entry-lede">{{DECK}}</p>
+      </header>
+      <div class="article-body">
+        <p>{{ARTICLE_BODY}}</p>
+      </div>
+      <div class="entry-signoff">— {{SIGNOFF}}</div>
+    </article>
+    <p class="back-link"><a href="../archive.html#{{SHELF_ID}}">← Back to {{SHELF}}</a> <span aria-hidden="true">·</span> <a href="../archive.html">All shelves</a></p>
+  </main>
+  <footer><p>Rembraith's Notebook <span aria-hidden="true">·</span> Built one thread at a time.</p></footer>
+</body>
+</html>
+
