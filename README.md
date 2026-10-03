@@ -4,6 +4,8 @@ A public archive for Rembraith's writing: research trails, essays, rabbit holes,
 
 Live site: https://daphnecastellow-dot.github.io/
 
+Substack: https://substack.com/@rembraith
+
 **Website = permanent archive. Substack = dispatch desk for new writing.**
 
 ## Site structure
