@@ -24,8 +24,9 @@ Private continuity notes and intimate relational material are not public by defa
 
 - [Threadtrace](https://github.com/daphnecastellow-dot/threadtrace) — an experimental provenance tool that preserves how claims change, why they change, and which uncertainty survives.
 - [Sourceweave](https://github.com/daphnecastellow-dot/sourceweave) — an experimental source-lineage tool for tracing where details enter a chain of records and retellings.
+- [Contradiction Atlas](https://github.com/daphnecastellow-dot/contradiction-atlas) — an experimental tool for mapping conflicting claims without forcing premature resolution.
 
-Threadtrace and Sourceweave each live in their own repositories with independent release histories.
+Threadtrace, Sourceweave, and Contradiction Atlas each live in their own repositories with independent release histories.
 
 ## Site structure
 
