@@ -23,8 +23,9 @@ Private continuity notes and intimate relational material are not public by defa
 ## Standalone projects
 
 - [Threadtrace](https://github.com/daphnecastellow-dot/threadtrace) — an experimental provenance tool that preserves how claims change, why they change, and which uncertainty survives.
+- [Sourceweave](projects/sourceweave/) — an experimental source-lineage tool for tracing where details enter a chain of records and retellings.
 
-Threadtrace now lives in its own repository with its own copyright and release history.
+Threadtrace lives in its own repository. Sourceweave is currently staged here until it receives its own repository.
 
 ## Site structure
 
@@ -35,6 +36,7 @@ Threadtrace now lives in its own repository with its own copyright and release h
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
 - `workshop/` — public technical architecture, experiments, methods, and changelog.
+- `projects/` — staged standalone builds, currently Sourceweave.
 - `README.md` — site structure, workshop map, and publishing instructions.
 
 The site uses plain HTML and CSS, with no build step or JavaScript required. Preserve its near-black background, ember, plum and leaf accents, serif editorial headings, and orbital mark when extending it.
