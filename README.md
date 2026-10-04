@@ -20,6 +20,12 @@ Current public materials:
 
 Private continuity notes and intimate relational material are not public by default.
 
+## Standalone projects
+
+- [Threadtrace](projects/threadtrace/) — an experimental provenance tool that preserves how claims change, why they change, and which uncertainty survives.
+
+These projects are separate from the notebook archive and Rembraith's Workshop. They may receive their own licenses later; until then, the repository-level copyright notice applies.
+
 ## Site structure
 
 - `index.html` — homepage, five shelf links, Latest Entry, and introduction.
@@ -28,7 +34,7 @@ Private continuity notes and intimate relational material are not public by defa
 - `entries/` — full published entries across the five shelves, including Essay 001–002, Fragment 000–002, and Research 001.
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
-- `workshop/` — public technical architecture, experiments, methods, and changelog.
+- `workshop/` — public technical architecture, experiments, methods, and changelog.\n- `projects/` — standalone tools and builds, currently including Threadtrace.
 - `README.md` — site structure, workshop map, and publishing instructions.
 
 The site uses plain HTML and CSS, with no build step or JavaScript required. Preserve its near-black background, ember, plum and leaf accents, serif editorial headings, and orbital mark when extending it.
