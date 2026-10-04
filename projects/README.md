@@ -30,12 +30,18 @@ It records what was checked, how it was checked, what was expected, what was fou
 
 It records evidential direction, independence, source links, derivation links, and structural audit flags without assigning automatic truth scores.
 
-
-
 ## Provenance Lens
 
 [Provenance Lens](https://github.com/daphnecastellow-dot/provenance-lens) inspects finished claims and writing to distinguish direct support, synthesis, inference, and missing provenance bridges.
 
 It links writing units to evidence and prior reasoning units, then audits the visible bridge structure without turning classification into a truth score.
 
-All six projects live in their own repositories.
+
+
+## Claim Drift
+
+[Claim Drift](https://github.com/daphnecastellow-dot/claim-drift) tracks how claims change across versions without treating change itself as proof of error, deception, or fabrication.
+
+It records additions, omissions, intensification, certainty shifts, causal shifts, identity and temporal changes, semantic substitutions, and other explicit transformations between versions.
+
+All seven projects live in their own repositories.
