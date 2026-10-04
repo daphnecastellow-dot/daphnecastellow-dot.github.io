@@ -42,12 +42,18 @@ It links writing units to evidence and prior reasoning units, then audits the vi
 
 It records additions, omissions, intensification, certainty shifts, causal shifts, identity and temporal changes, semantic substitutions, and other explicit transformations between versions.
 
-
-
 ## Tracebridge
 
 [Tracebridge](https://github.com/daphnecastellow-dot/tracebridge) is a small interoperability layer for passing provenance-aware records between the independent research tools.
 
 It preserves shared bridge IDs, original local IDs, record origins, typed relationships, and native payloads, and it refuses incompatible ID collisions rather than silently choosing one version.
 
-All eight projects live in their own repositories.
+
+
+## Bridgekeeper
+
+[Bridgekeeper](https://github.com/daphnecastellow-dot/bridgekeeper) preserves compact continuity handoffs across time without silently rewriting earlier project state.
+
+It records canonical values, ordinary changes, explicit corrections, unresolved items with reopen conditions, superseded bridge IDs, and authority pointers while keeping canonicality an explicit project declaration rather than an inferred result.
+
+All nine projects live in their own repositories.
