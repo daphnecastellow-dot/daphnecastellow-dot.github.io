@@ -27,8 +27,9 @@ Private continuity notes and intimate relational material are not public by defa
 - [Contradiction Atlas](https://github.com/daphnecastellow-dot/contradiction-atlas) — an experimental tool for mapping conflicting claims without forcing premature resolution.
 - [Negative Space](https://github.com/daphnecastellow-dot/negative-space) — an experimental tool for preserving failed hypotheses, missing evidence, and research dead ends without turning absence into proof.
 - [Evidence Ledger](https://github.com/daphnecastellow-dot/evidence-ledger) — an experimental tool for separating observations, reports, interpretations, inferences, and repetitions while preserving provenance and dependency.
+- [Provenance Lens](https://github.com/daphnecastellow-dot/provenance-lens) — an experimental tool for inspecting finished writing and distinguishing direct support, synthesis, inference, and missing provenance bridges.
 
-Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, and Evidence Ledger each live in their own repositories with independent release histories.
+Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, and Provenance Lens each live in their own repositories with independent release histories.
 
 ## Site structure
 
