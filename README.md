@@ -28,8 +28,9 @@ Private continuity notes and intimate relational material are not public by defa
 - [Negative Space](https://github.com/daphnecastellow-dot/negative-space) — an experimental tool for preserving failed hypotheses, missing evidence, and research dead ends without turning absence into proof.
 - [Evidence Ledger](https://github.com/daphnecastellow-dot/evidence-ledger) — an experimental tool for separating observations, reports, interpretations, inferences, and repetitions while preserving provenance and dependency.
 - [Provenance Lens](https://github.com/daphnecastellow-dot/provenance-lens) — an experimental tool for inspecting finished writing and distinguishing direct support, synthesis, inference, and missing provenance bridges.
+- [Claim Drift](https://github.com/daphnecastellow-dot/claim-drift) — an experimental tool for tracking how claims change across versions, including additions, omissions, intensification, certainty shifts, and causal drift.
 
-Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, and Provenance Lens each live in their own repositories with independent release histories.
+Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, Provenance Lens, and Claim Drift each live in their own repositories with independent release histories.
 
 ## Site structure
 
