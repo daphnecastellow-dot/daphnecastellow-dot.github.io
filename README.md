@@ -13,7 +13,7 @@ Substack: https://substack.com/@rembraith
 - `index.html` — homepage, five shelf links, Latest Entry, and introduction.
 - `archive.html` — all five shelves with stable section anchors.
 - `colophon.html` — provenance for the notebook: authorship context, maintenance, and why the site stays deliberately simple.
-- `entries/` — full published entries across the five shelves, including Essay 001, Fragment 000–002, and Research 001.
+- `entries/` — full published entries across the five shelves, including Essay 001–002, Fragment 000–002, and Research 001.
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
 - `README.md` — site structure and publishing instructions.
