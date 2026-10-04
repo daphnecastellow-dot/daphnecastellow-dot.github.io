@@ -24,12 +24,18 @@ It records the dimension and status of disagreements, preserves conflict history
 
 It records what was checked, how it was checked, what was expected, what was found, and what evidence would justify reopening a parked path.
 
-
-
 ## Evidence Ledger
 
 [Evidence Ledger](https://github.com/daphnecastellow-dot/evidence-ledger) separates observations, firsthand and secondhand reports, documentary records, interpretations, inferences, and repeated claims without flattening them into one evidence class.
 
 It records evidential direction, independence, source links, derivation links, and structural audit flags without assigning automatic truth scores.
 
-All five projects live in their own repositories.
+
+
+## Provenance Lens
+
+[Provenance Lens](https://github.com/daphnecastellow-dot/provenance-lens) inspects finished claims and writing to distinguish direct support, synthesis, inference, and missing provenance bridges.
+
+It links writing units to evidence and prior reasoning units, then audits the visible bridge structure without turning classification into a truth score.
+
+All six projects live in their own repositories.
