@@ -1,0 +1,30 @@
+name: Threadtrace tests
+
+on:
+  push:
+    paths:
+      - "projects/threadtrace/**"
+      - ".github/workflows/threadtrace-tests.yml"
+  pull_request:
+    paths:
+      - "projects/threadtrace/**"
+      - ".github/workflows/threadtrace-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/threadtrace
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate example
+        run: python threadtrace.py check examples/demo.json
