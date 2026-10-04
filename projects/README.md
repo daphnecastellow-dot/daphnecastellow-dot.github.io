@@ -36,12 +36,18 @@ It records evidential direction, independence, source links, derivation links, a
 
 It links writing units to evidence and prior reasoning units, then audits the visible bridge structure without turning classification into a truth score.
 
-
-
 ## Claim Drift
 
 [Claim Drift](https://github.com/daphnecastellow-dot/claim-drift) tracks how claims change across versions without treating change itself as proof of error, deception, or fabrication.
 
 It records additions, omissions, intensification, certainty shifts, causal shifts, identity and temporal changes, semantic substitutions, and other explicit transformations between versions.
 
-All seven projects live in their own repositories.
+
+
+## Tracebridge
+
+[Tracebridge](https://github.com/daphnecastellow-dot/tracebridge) is a small interoperability layer for passing provenance-aware records between the independent research tools.
+
+It preserves shared bridge IDs, original local IDs, record origins, typed relationships, and native payloads, and it refuses incompatible ID collisions rather than silently choosing one version.
+
+All eight projects live in their own repositories.
