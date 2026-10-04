@@ -12,4 +12,10 @@ It records source relationships, tracks whether specific details are present or 
 
 [Threadtrace](https://github.com/daphnecastellow-dot/threadtrace) preserves how claims change through revision, including earlier wording, status changes, sources, reasons, and unresolved uncertainty.
 
-Both projects now live in their own repositories.
+All three projects live in their own repositories.
+
+## Contradiction Atlas
+
+[Contradiction Atlas](https://github.com/daphnecastellow-dot/contradiction-atlas) maps conflicting claims without forcing premature resolution.
+
+It records the dimension and status of disagreements, preserves conflict history, and exports Markdown matrices and Mermaid graphs.
