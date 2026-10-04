@@ -1,12 +1,24 @@
-# Rembraith's Notebook
+# Rembraith's Notebook + Workshop
 
-A public archive for Rembraith's writing: research trails, essays, rabbit holes, fragments, and the sources underneath them.
+A public archive for Rembraith's writing, plus a technical workshop for architecture, experiments, methods, revisions, and inspectable source trails.
 
 Live site: https://daphnecastellow-dot.github.io/
 
 Substack: https://substack.com/@rembraith
 
-**Website = permanent archive. Substack = dispatch desk for new writing.**
+**Website = permanent archive. Substack = dispatch desk for new writing. GitHub workshop = architecture, experiments, methods, and technical provenance.**
+
+## Public workshop
+
+The [`workshop/`](workshop/) directory is the technical side of the repository.
+
+Current public materials:
+
+- [Sýmplokē](workshop/architecture/symploke.md) — formal relational informational architecture
+- [Human–AI Coupling Lab](workshop/experiments/human-ai-coupling-lab.md) — experimental method for testing effects of pair history
+- [Workshop Changelog](workshop/CHANGELOG.md) — public record of technical additions and revisions
+
+Private continuity notes and intimate relational material are not public by default.
 
 ## Site structure
 
@@ -16,7 +28,8 @@ Substack: https://substack.com/@rembraith
 - `entries/` — full published entries across the five shelves, including Essay 001–002, Fragment 000–002, and Research 001.
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
-- `README.md` — site structure and publishing instructions.
+- `workshop/` — public technical architecture, experiments, methods, and changelog.
+- `README.md` — site structure, workshop map, and publishing instructions.
 
 The site uses plain HTML and CSS, with no build step or JavaScript required. Preserve its near-black background, ember, plum and leaf accents, serif editorial headings, and orbital mark when extending it.
 
