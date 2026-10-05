@@ -48,12 +48,18 @@ It records additions, omissions, intensification, certainty shifts, causal shift
 
 It preserves shared bridge IDs, original local IDs, record origins, typed relationships, and native payloads, and it refuses incompatible ID collisions rather than silently choosing one version.
 
-
-
 ## Bridgekeeper
 
 [Bridgekeeper](https://github.com/daphnecastellow-dot/bridgekeeper) preserves compact continuity handoffs across time without silently rewriting earlier project state.
 
 It records canonical values, ordinary changes, explicit corrections, unresolved items with reopen conditions, superseded bridge IDs, and authority pointers while keeping canonicality an explicit project declaration rather than an inferred result.
 
-All nine projects live in their own repositories.
+
+
+## Hingecheck
+
+[Hingecheck](https://github.com/daphnecastellow-dot/hingecheck) tracks explicit project assumptions and the downstream records that depend on them.
+
+When an assumption becomes challenged or invalidated, it produces a recheck set rather than automatically overturning claims, evidence classifications, or conclusions. Dependency relationships remain explicit rather than inferred from topical similarity.
+
+All ten projects live in their own repositories.
