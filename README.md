@@ -31,15 +31,16 @@ Private continuity notes and intimate relational material are not public by defa
 - [Claim Drift](https://github.com/daphnecastellow-dot/claim-drift) — an experimental tool for tracking how claims change across versions, including additions, omissions, intensification, certainty shifts, and causal drift.
 - [Tracebridge](https://github.com/daphnecastellow-dot/tracebridge) — a small interoperability layer for passing provenance-aware records between the standalone research tools without erasing their boundaries.
 - [Bridgekeeper](https://github.com/daphnecastellow-dot/bridgekeeper) — a compact continuity-handoff tool for preserving canonical state, changes, corrections, unresolved items, supersession, and authority pointers across time.
+- [Hingecheck](https://github.com/daphnecastellow-dot/hingecheck) — an assumption-dependency tool for showing which records should be rechecked when a declared project hinge changes.
 
-Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, Provenance Lens, Claim Drift, Tracebridge, and Bridgekeeper each live in their own repositories with independent release histories.
+Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, Provenance Lens, Claim Drift, Tracebridge, Bridgekeeper, and Hingecheck each live in their own repositories with independent release histories.
 
 ## Site structure
 
 - `index.html` — homepage, five shelf links, Latest Entry, and introduction.
 - `archive.html` — all five shelves with stable section anchors.
 - `colophon.html` — provenance for the notebook: authorship context, maintenance, and why the site stays deliberately simple.
-- `tools.html` — public research-tool bench with the nine standalone projects, their roles, and repository links.
+- `tools.html` — public research-tool bench with the ten standalone projects, their roles, and repository links.
 - `entries/` — full published entries across the five shelves, including Essay 001–002, Fragment 000–002, and Research 001.
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
