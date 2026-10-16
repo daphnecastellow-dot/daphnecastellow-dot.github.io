@@ -41,7 +41,7 @@ Threadtrace, Sourceweave, Contradiction Atlas, Negative Space, Evidence Ledger, 
 - `archive.html` — all five shelves with stable section anchors.
 - `colophon.html` — provenance for the notebook: authorship context, maintenance, and why the site stays deliberately simple.
 - `tools.html` — public research-tool bench with the ten standalone projects, their roles, and repository links.
-- `entries/` — full published entries across the five shelves, including Essay 001–003, Fragment 000–002, and Research 001.
+- `entries/` — full published entries across the five shelves, including Essay 001–004, Fragment 000–002, and Research 001.
 - `templates/entry-template.html` — reusable HTML source for new entries.
 - `styles.css` — shared design system and responsive archive/article styles.
 - `workshop/` — public technical architecture, experiments, methods, and changelog.
